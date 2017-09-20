@@ -9,7 +9,7 @@ main :: IO ()
 main = hspec spec
 
 spec :: Spec
-spec = do
-    describe "absolute" $ do
+spec = 
+    describe "absolute" $ 
         it "returns the original number when given a positive input" $
           absolute 1 `shouldBe` 1
